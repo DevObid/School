@@ -117,8 +117,7 @@ function Teachers() {
             <div className=" absolute w-[60%] top-[100px] right-[200px] bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
                 <div className="flex justify-between">
                     <div>
-                        <h5 className="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">32.4k</h5>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Users this week</p>
+                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">Totale Hours</p>
                     </div>
                     <div className="flex items-center px-2.5 py-0.5 text-base font-semibold text-green-500 dark:text-green-500 text-center">
                         12%
@@ -145,23 +144,15 @@ function Teachers() {
                             </svg>
                         </button>
                         {/* Dropdown menu */}
-                        <div id="lastDaysdropdown" className="z-10 visible bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                            <ul ref={refmonths} className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                        <div ref={refmonths} id="lastDaysdropdown" className="z-10   absolute visible bg-white divide-y divide-gray-100 rounded-lg h shadow w-44 dark:bg-gray-700">
+                            <ul className="py-2 text-sm absolute bg-white bottom-[2px]  right-[650px] text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Yesterday</a>
+                                    <a href="#" className="block px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Yesterday</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Today</a>
+                                    <a href="#" className="block px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Today</a>
                                 </li>
-                                <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 7 days</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 30 days</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last 90 days</a>
-                                </li>
+
                             </ul>
                         </div>
                         <a
@@ -179,7 +170,7 @@ function Teachers() {
 
 
 
-            {/* <div class=" absolute right-[10px] w-[81%] mt-[650px] h-[240px]  overflow-x-auto shadow-md sm:rounded-lg">
+            <div class=" absolute right-[10px] w-[81%] mt-[500px] h-[240px]  overflow-x-auto shadow-md sm:rounded-lg">
 
                 <table className=" w-[100%] h-[240px]   text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead style={{ backgroundColor: "#1C64F2" }} className="text-xs text-white  uppercase  dark:bg-gray-700 dark:text-gray-400">
@@ -241,7 +232,7 @@ function Teachers() {
                         </tr>
                     </tbody>
                 </table>
-            </div> */}
+            </div>
         </div>
     )
 }
