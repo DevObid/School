@@ -6,12 +6,13 @@ import Shart from './Sharts/Shart';
 import Teachers from './Sharts/Teachers';
 import Students from './Students/Students';
 import Courses from './Courses/Courses';
+import Classes from './Classes/classes';
 function App() {
   return (
     <div className="flex">
       <Sidebar />
       <Navbar />
-      <Courses />
+      <Shart />
 
     </div>
   );
