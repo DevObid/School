@@ -127,7 +127,7 @@ function Shart() {
     return (
 
         <div>
-            <div className="w-[400px] h-[500px]  absolute right-[800px] mt-[90px] bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+            <div className="w-[400px] h-[500px] md:right-[820px]  absolute right-[100px] mt-[90px] bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
                 <div className="flex justify-between mb-3">
                     <div className="flex justify-center items-center">
                         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white pe-1">
@@ -377,9 +377,9 @@ function Shart() {
                 </div>
             </div>
 
-            <div class=" absolute right-[10px] w-[750px] mt-[100px]  overflow-x-auto shadow-md sm:rounded-lg">
+            <div class=" absolute right-[10px] w-[580px] mt-[610px] md:mt-[100px] md:w-[800px]  overflow-x-auto shadow-md sm:rounded-lg">
 
-                <table className=" w-[750px]   text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <table className=" w-[580px]  md:w-[800px]  text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead style={{ backgroundColor: "#1C64F2" }} className="text-xs text-white  uppercase  dark:bg-gray-700 dark:text-gray-400">
                         <tr >
                             <th scope="col" className="px-6 py-3">Student Name</th>
@@ -429,9 +429,9 @@ function Shart() {
                 </table>
             </div>
 
-            <div class=" absolute right-[10px] w-[750px] mt-[350px] h-[240px]  overflow-x-auto shadow-md sm:rounded-lg">
+            <div class=" md:mt-[350px] md:w-[800px]  absolute right-[10px] w-[580px] mt-[840px] h-[240px]  overflow-x-auto shadow-md sm:rounded-lg">
 
-                <table className=" w-[750px] h-[240px]   text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <table className=" md:mt-[350px] md:w-[800px]  w-[580px] h-[240px]   text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead style={{ backgroundColor: "#1C64F2" }} className="text-xs text-white  uppercase  dark:bg-gray-700 dark:text-gray-400">
                         <tr >
                             <th scope="col" className="px-6 py-3">Student Name</th>
